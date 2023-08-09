@@ -1,83 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,1000&display=swap');
  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* list-style: none; */
     /* text-decoration: none; */
-    font-family: sans-serif;
-    font-size: 36;
+    /* font-family: sans-serif; */
+    /* font-size: 36; */
 } 
+.name{
+    font-size: 36;
+}
 .nav{
     display: flex;
     justify-content: space-between;
     padding: 15px 30px;
-}
-
+    }
 .ul{
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 40px;
     color: #fff;
 }
-
-
 body{
     background-color: black;
     display: grid;
     color: white;
-    font-family: sans-serif;
 }
-.image{
-    width: 345px;
-    height: 345px;
-    border-radius: 50%;
-}
+.profile{
+    width: 200px;
+    height: 200px;
+    }
 .frontend{
     display: flex;
+    gap: 100px;
     align-items: center;
     padding-left: 300px;
     padding-top: 100px;
-    gap: 90px;
+
 }
 .download{
     background-color: green;
-    width: 150px;
-    height: 40px;
+    width: 120px;
+    height: 35px;
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
      border: solid 2px green;
      cursor: pointer;
-
 }
 .box{
     background-color: black;
     border: solid 2px white;
     color: white;
-    width: 150px;
-    height: 40px;
+    width: 120px;
+    height: 35px;
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 .more {
     display: flex;
     gap: 10px;
-    padding-left: 350px;
+    padding-left: 300px;
 }
 .about{
-    padding-left: 450px;
+    padding-left: 500px;
     padding-top: 50px;
 }
 .intro{ 
-    padding-left: 100px;
     text-align: center;
-    font-size: 16;
     width: 850px;
+    margin: auto;
 }
 .info{
-    gap: 20px;
-    padding-top: 70px;
-    padding-left: 70px;
-    font-size: 16;
+    display: flex;
+    gap: 90px;
+    width: 800px;
+    height: auto;
+    padding-left: 170px;
+    padding-top: 50px;
 }
+.what{
+    font-size: 12vh;
+}
+h3{
+    padding-left: 100px;
+    font-size: 36px;
+}
+h4{
+    padding-top: 50px;
+    padding-left: 550px;
+    font-size: 36px; 
+}
+.frame{
+    width: 100pxpx;
+    height: 200px;;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+h5{
+    padding-top: 50px;
+    padding-left: 550px;
+    font-size: 36px; 
+}
+.skills{
+    background-color: #212121;
+    display: flex;
+    gap: 50px;
+    width: 800px;
+    height: auto;
+    margin-left:  245px;
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 50px;
+    
+}
+h6{
+    padding-top: 50px;
+    padding-left: 550px;
+    font-size: 36px; 
+}
+.touch{
+    /* background-color: red; */
+    width: 650px;
+    height: 280px;
+    margin-left:  350px;
+}
+ .submit{
+    background-color: green;
+    width: 100px;
+    height: 23px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border: solid 2px green;
+    cursor: pointer;
+    margin-top: 45px;
+    margin-left: 235px; 
+ }  
+ .first{
+    color: #4F4F4F;
+    display: flex;
+    gap: 100px;
+    padding-top: 40px;
+ } 
+ .contact{
+    display: flex;
+    gap: 100px;
+    color: #4F4F4F;
+    padding-top: 40px;
+ }
+ #message{
+    background-color: black;
+    border: solid 0.4px #C4C4C4;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+ }
+ input , textarea{
+    background-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+ }
+ 
